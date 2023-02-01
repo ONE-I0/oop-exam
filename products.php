@@ -4,7 +4,7 @@
         private $description;
         private $price;
         private $srp;
-    }
+    
         
         function setName(){
             $this->name = $name;
@@ -30,5 +30,5 @@
         function computeSRP() {
             echo ($this->price * 1.5);
         }
-    
+    }
 ?>
